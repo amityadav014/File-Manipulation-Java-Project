@@ -16,15 +16,15 @@ public class ReadFromFileExample {
         }
 
         // method 2
-        String fileName2 = "filewrite3.txt";
-        FileReader fileReader2 = new FileReader(fileName)2;
-        try {
-            int i;
-            while ((i = fileReader2.read()) != -1) {
-                System.out.print((char) i);
-            }
-        } finally {
-            fileReader2.close();
-        }
+        // String fileName2 = "filewrite3.txt";
+        // FileReader fileReader2 = new FileReader(fileName)2;
+        // try {
+        //     int i;
+        //     while ((i = fileReader2.read()) != -1) {
+        //         System.out.print((char) i);
+        //     }
+        // } finally {
+        //     fileReader2.close();
+        // }
     }
 }
